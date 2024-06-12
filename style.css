@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Tangerine|Inconsolata|Droid+Sans');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./lorry2.jpg);
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    
+}
+.container{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 8vw;
+    
+}
+.card{
+    background-color:rgba(0, 0, 0, 0.562);
+    opacity: 1;
+    border-radius: 10px;
+    
+    
+}
+.border {
+  height: 5rem;
+  width: 5rem;
+  
+  
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #e7eaec;
+  padding: 10px;
+  border-radius: 9px;
+  margin: 10px;
+}
+.grid-item {
+  background-color: rgba(255, 56, 56, 0.8);
+  border: 3px solid rgba(0, 0, 0, 0.4);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+.docker-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  background-color: #e7eaec;
+  padding: 10px;
+  border-radius: 9px;
+  margin: 10px;
+  
+}
+.docker-item {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: rgb(255, 238, 0);
+  border: 3px solid rgba(0, 0, 0, 0.616);
+  opacity: 0.9;
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+  
+}
+h4,h1,h2{
+    text-align: center;
+    color: white;
+   
+}
+.docker-item1 {
+    font-family: 'Courier New', Courier, monospace;
+  background-color: rgba(153, 253, 248, 0.973);
+  border: 3px solid rgba(0, 0, 0, 0.4);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+
+}
+.card-header{
+    background-color:black;
+    opacity: 0.5;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+.card-details{
+    font-size: 20px;
+    background-color:rgba(241, 250, 249, 0.411);
+    background-color: azure;
+    text-align: left;
+    padding: 50px;
+    margin: 40px;
+    border-radius:15px;
+}
